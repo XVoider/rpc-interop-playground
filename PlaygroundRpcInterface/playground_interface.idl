@@ -1,0 +1,8 @@
+[uuid(8680233F-63F1-489B-80A5-1E69468DF64A), version(1.0)]
+interface playground_interface
+{
+    error_status_t pass_and_get_string(
+        [in] handle_t binding_handle,
+        [in, string] const char* str,
+        [out, string] char** out_str);
+}

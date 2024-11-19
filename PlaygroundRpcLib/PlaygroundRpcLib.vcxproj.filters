@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Stubs">
+      <UniqueIdentifier>{1ab442a1-a3a1-449d-a5c6-451528adefc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{748058df-25fc-41f0-8553-f013cea4d027}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="playground_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playground_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc_alloc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Stubs\playground_interface_c.c">
+      <Filter>Stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="Stubs\playground_interface_s.c">
+      <Filter>Stubs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="playground_client.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playground_rpc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playground_server.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stubs\playground_interface_h.h">
+      <Filter>Stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\defer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

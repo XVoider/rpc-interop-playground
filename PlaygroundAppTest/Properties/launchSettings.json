@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PlaygroundAppTest": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

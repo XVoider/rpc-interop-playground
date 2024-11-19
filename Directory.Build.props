@@ -1,0 +1,11 @@
+<Project>
+
+  <PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.csproj'">
+    <BaseOutputPath>$(SolutionDir).build\Managed\$(MSBuildProjectName)\bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir).build\Managed\$(MSBuildProjectName)\obj</BaseIntermediateOutputPath>
+
+    <AssetsDir>$(SolutionDir)Assets</AssetsDir>
+    <AppManifestFile>$(AssetsDir)\app.manifest</AppManifestFile>
+  </PropertyGroup>
+
+</Project>

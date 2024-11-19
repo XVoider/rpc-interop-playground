@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PlaygroundApp": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlaygroundRpcDll\PlaygroundRpcDll.vcxproj" ReferenceOutputAssembly="false" />
+    <None Include="..\.build\Native\x64\$(Configuration)\PlaygroundRpc.dll" Visible="false" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="$(AssetsDir)\history.txt" LinkBase="Assets\" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
