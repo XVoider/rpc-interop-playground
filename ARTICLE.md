@@ -11,7 +11,7 @@ In the following chapters, we explore in detail:
 - how to deal with memory management issues stemming from mixing native and managed code,
 - other quirks related to used frameworks and techniques.
 ## Setting up RPC communication channel
-In this chapter, we build a basic RPC channel with client/server model using C and C++. A complete overview and documentation of MS RPC can be found at [Microsoft Learn]([Remote procedure call (RPC) - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/rpc/rpc-start-page)).
+In this chapter, we build a basic RPC channel with client/server model using C and C++. A complete overview and documentation of MS RPC can be found at [Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/rpc/rpc-start-page).
 ### Generating client and server stubs
 In order to communicate, we need a client and a server. Both are stubs, a generated C code by MIDL (Microsoft Interface Definition Language) compiler. This code is custom generated based on C-like function declarations in an IDL file. Here is an example of an RPC interface with one function.
 ```idl
